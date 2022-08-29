@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+}
+
+.banner {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.heading {
+    color: white;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+.peragraph {
+    color: white;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+.link-button {
+    text-decoration: none;
+    position: absolute;
+    background-image: linear-gradient(blue, purple);
+    padding: 2px 40px;
+    color: ghostwhite;
+    font-weight: 700;
+    border-radius: 5px;
+    top: 50%;
+    text-align: center;
+    width: 20%;
+    margin-right: 50%;
+    margin-left: 35%;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+}
