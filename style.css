@@ -5,6 +5,7 @@
 
 body {
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .banner {
@@ -55,13 +56,35 @@ body {
     background-color: gainsboro;
 }
 
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(blue, purple);
+    padding: 2px 40px;
+    color: ghostwhite;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    width: 20%;
+    margin-right: 35%;
+    margin-left: 45%;
+}
+
 .page-title {
+    color: #5a5a5a;
+    margin-left: 40%;
+}
+
+.page-title1 {
     color: #5a5a5a;
     margin-left: 40%;
 }
 
 .page {
     margin-left: 25%;
+}
+
+.page1 {
+    margin-left: 20%;
 }
 
 .col {
@@ -112,4 +135,107 @@ body {
     margin-top: 2px;
     margin-bottom: 90px;
     background-color: gainsboro;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    width: 350px;
+    height: 300px;
+    border: 3px solid lightblue;
+    background-color: lightblue;
+}
+
+.box2 {
+    width: 350px;
+    height: 300px;
+    border: 3px solid lightpink;
+    background-color: lightpink;
+}
+
+.box3 {
+    width: 350px;
+    height: 300px;
+    border: 3px solid lightyellow;
+    background-color: lightyellow;
+}
+
+.section1 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background: #ececec;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-box {
+    padding: 10px;
+    border-radius: 5px;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+    margin-bottom: 100%;
+}
+
+.form-box input {
+    font-size: 18px;
+    color: #000000;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #ececec;
+}
+
+.form-box button {
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4769d8;
+    cursor: pointer;
+    transition: .3s;
+}
+.form-box button:hover {
+    background: #2e54d3;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: linear-gradient(black, gray);
+    height: auto;
+    width: 100vw;
+    font-family: sans-serif;
+    padding-top: 90px;
+    color: seashell;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h5{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 100px;
+    font-size: 14px;
 }
