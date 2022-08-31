@@ -54,3 +54,62 @@ body {
     margin-bottom: 10px;
     background-color: gainsboro;
 }
+
+.page-title {
+    color: #5a5a5a;
+    margin-left: 40%;
+}
+
+.page {
+    margin-left: 25%;
+}
+
+.col {
+    width: 200px;
+    height: 150px;
+    background-color: whitesmoke;
+    float: left;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    margin: 10px;
+}
+
+.col1 {
+    width: 200px;
+    height: 150px;
+    background-color: lightpink;
+    float: left;
+    border: 2px solid red;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    padding-right: 100px;
+}
+
+.header {
+    margin-left: 30%;
+    margin-top: 30%;
+}
+
+.header1 {
+    margin-left: 50%;
+    margin-top: 30%;
+}
+
+.new {
+    margin-top: 15%;
+    color: gainsboro;
+    margin-left: 45%;
+}
+
+.line {
+    width: 80%;
+    height: 3px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2px;
+    margin-bottom: 90px;
+    background-color: gainsboro;
+}
